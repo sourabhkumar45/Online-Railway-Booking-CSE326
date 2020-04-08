@@ -1,0 +1,137 @@
+body
+{     
+ margin:0px;
+ border-width:30px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border:40px;
+    text-align: center;
+    font-weight:10;
+    padding:20px;
+    background-color:rgb(212, 212, 212);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float:right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(212, 212, 212);
+    text-decoration-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .slides
+{
+    height:700px;
+    width:1900px;
+    margin: 0px;
+    padding: 0%;
+}
+#contact_card
+  {
+      width:930px;
+      height:250px;
+      background-color: rgb(236, 236, 236);
+      position: relative;
+      top:50px;
+      left:450px;
+      padding:10px;
+      margin:50px;
+  }
+  #contact_card:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #temp_img
+{
+    width:350px;
+    height:250px;
+    
+}
+#para
+{
+    text-align: right;
+    position: relative;
+    bottom:250px;
+    left:180px;
+    font-weight: bolder;
+    padding-left:5px;
+    text-align: center;
+}
+#price-card
+{
+    background-color: yellow;
+    width:75px;
+    position: relative;
+   left:420px;
+   bottom:200px;
+   font-size: larger;
+}
+#butt
+    {
+        width:100px;
+        border-radius: 4px;
+        outline: none;
+        background-color: grey;
+        border:none;
+        font-size:large;
+        text-decoration: none;
+        position: relative;
+        bottom:240px;
+        left:800px;
+        
+    }
+    #link
+{
+    text-decoration: none;
+    color:black;
+}

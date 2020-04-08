@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>
+            National Tourism Packages
+        </title>
+        <link rel="stylesheet" href="styles/n_packs_style.css" type="text/css">
+    </head>
+    <body>
+         <header>Our national Holiday packages</header>
+         <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn"><a href="contacts.html">CONTACT US</a>
+                 
+                </button>
+                <div class="dropdown-content">
+                  <a href="emailus.html">E-mail Us</a>
+                  <a href="feedback.html">Feedback</a>
+                  <a href="contactus.html">Contact No. and Address</a>
+                </div>
+              </div> 
+              <div class="dropdown">
+                <button class="dropbtn"><a href="services_at_station.html">SERVICES AT STATION</a>
+                 
+                </button>
+                <div class="dropdown-content">
+                  <a href="wifi.html">Wi-Fi Railway Stations</a>
+                  <a href="wheelchairs.html">E-wheelchairs</a>
+                  <a href="BOC.pdf">Battery Operated Cars</a>
+                </div>
+              </div> 
+              <div class="dropdown">
+                <button class="dropbtn"><a href="holidays.html">HOLIDAY PACKAGES</a>
+                 
+                </button>
+                <div class="dropdown-content">
+                  <a href="n_packs.html">National Packages</a>
+                  <a href="i_packs.html">International Packages</a>
+                </div>
+              </div> 
+              <div class="dropdown">
+                <button class="dropbtn"><a href="meals.html">MEALS</a>
+                  
+                </button>
+                <div class="dropdown-content">
+                  <a href="meals.html">Indian Cuisines</a>
+                </div>
+              </div> 
+            <div class="dropdown">
+                <button class="dropbtn"><a href="home.html">HOME</a>
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="login.html">Login/Sign-Up</a>
+                  <a href="history.html">Transactions</a>
+                  <a href="history.html">Cancel Tickets</a>
+                  <a href="logout.html">Log Out</a>
+                </div>
+              </div> 
+          </div>
+          <img class="slides" src="resoures/sebin-thomas-4pO3SKankpo-unsplash.jpg">
+             <img class="slides" src="resoures/raj-rana-YtfUqAPLqMk-unsplash.jpg">
+             <img class="slides" src="resoures/kishan-upadhyay-CVeAbNhazHM-unsplash.jpg">
+             <img class="slides" src="resoures/hardik-joshi-niUei6OnuiA-unsplash.jpg">
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("slides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+            <div id="contact_card">
+                <img src="resoures/amritsar.jpg" alt="railway_img" id="temp_img">
+                <div style="display: inline;"> <p id="para">NEW DELHI-AMRITSAR<br><br>
+                    Duration:1 Nights/2 Days  Package Code:NDR045<br><br>City: AMRITSAR Origin:DELHI <br><br>Departure: FRI & SAT Upcoming Date Of Journey:17-APR-20</p>
+                <p id="price-card">₹5780</p></div>
+                <button id="butt"><a href="resoures/details-converted.pdf" id="link">Details</a></button>
+            </div>
+            <div id="contact_card">
+                <img src="resoures/karnataka.jpg" alt="railway_img" id="temp_img">
+                <div style="display: inline;"> <p id="para">HERITAGE KARNATAKA EX MUMBAI<br><br>
+                    Duration:5 Nights/6 Days  Package Code:WMR141<br><br>City: AIHOLE/BADAMI Origin:MUMBAI <br><br>Departure: FRI & SAT Upcoming Date Of Journey:18-APR-20</p>
+                <p id="price-card">₹10190</p></div>
+                <button id="butt"><a href="resoures/details-converted.pdf" id="link">Details</a></button>
+            </div>
+            <div id="contact_card">
+                <img src="resoures/kings.jpg" alt="railway_img" id="temp_img">
+                <div style="display: inline;"> <p id="para">LANDS OF KINGS<br><br>
+                    Duration:8 Nights/9 Days  Package Code:SHR046<br><br>City: AJMER/JAIPUR Origin:HYDERABAD<br><br>Departure: FRI & SAT Upcoming Date Of Journey:17-APR-20</p>
+                <p id="price-card">₹20180</p></div>
+                <button id="butt"><a href="resoures/details-converted.pdf" id="link">Details</a></button>
+            </div>
+            <div id="contact_card">
+                <img src="resoures/kolapur.jpg" alt="railway_img" id="temp_img">
+                <div style="display: inline;"> <p id="para">2 STATES EX-KOLAHPUR<br><br>
+                    Duration:9 Nights/10 Days  Package Code:WMR136A<br><br>City: AHMEDABAD/AMBAJI Origin:MUMBAI <br><br>Departure: FRI & SAT Upcoming Date Of Journey:17-APR-20</p>
+                <p id="price-card">₹20180</p></div>
+                <button id="butt"><a href="resoures/details-converted.pdf" id="link">Details</a></button>
+            </div>
+            <div id="contact_card">
+                <img src="resoures/HIMANCHAL.jpg" alt="railway_img" id="temp_img">
+                <div style="display: inline;"> <p id="para">HIMANCHAL FANTASY<br><br>
+                    Duration:8 Nights/9 Days  Package Code:SHR045<br><br>City: CHANDIGARH/MANALI Origin:HYDERABAD <br><br>Departure: FRI & SAT Upcoming Date Of Journey:17-APR-20</p>
+                <p id="price-card">₹15760</p></div>
+                <button id="butt"><a href="resoures/details-converted.pdf" id="link">Details</a></button>
+            </div>
+          </body>
+
+          </html>

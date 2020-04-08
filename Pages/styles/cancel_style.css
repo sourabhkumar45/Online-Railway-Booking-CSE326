@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+button{
+    font-size:x-large;
+    outline:none;
+    border:none;
+}
+#link
+{
+    text-decoration: none;
+    color:black;
+}

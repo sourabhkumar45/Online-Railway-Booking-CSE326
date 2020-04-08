@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#irctc_logo
+{
+    width:200px;
+    height:100px;
+    position: relative;
+    left:850px;
+    top:30px;
+    
+}
+#div1>p{
+    text-align: center;
+}
+#input-box
+{
+    font-size: x-large;
+    outline:none;
+    width:400px;
+    height: 30px;
+    
+   
+}
+#input-box:hover
+{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#login-form
+{
+    width:500px;
+    background-color: rgb(212, 212, 212);;
+    padding:30px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:50px;
+}
+#newbutton
+{
+    
+    width:100px;
+    border-radius: 4px;
+    outline: none;
+    background-color: grey;
+    border:none;
+    font-size:large;
+    text-decoration: none;
+    margin:20px;
+}
+#create-link
+{
+    text-decoration:none;
+    color:black;
+}
